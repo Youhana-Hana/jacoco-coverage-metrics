@@ -1,5 +1,5 @@
 # jacoco-coverage-metrics
-Parent POM file to define Java jacoco coverage thresholds
+Parent POM file to define Java jacoco coverage thresholds.
 
 # Description
 Enable code coverage check, you need to use `coverage-root` as parent, from version (1.0.0), in your pom.xml file as follow:
@@ -42,4 +42,5 @@ mvn clean test -Dgroups="smoke.Smoke"
 
 # Check code coverage reports
 Unit tests report  at target\site\jacoco-ut\index.html
+
 Integration tests report at target\site\jacoco-it\index.html
