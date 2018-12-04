@@ -5,8 +5,8 @@ Parent POM file to define Java jacoco coverage thresholds.
 Enable code coverage check, you need to use `coverage-root` as parent, from version (1.0.0), in your pom.xml file as follow:
 ``` xml
 <parent>
-    <groupId>it.sdp</groupId>
-    <artifactId>sdp-root</artifactId>
+    <groupId>com.company</groupId>
+    <artifactId>com.company</artifactId>
     <version>1.2.0</version>
 </parent>
 ```
